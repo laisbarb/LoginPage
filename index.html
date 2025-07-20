@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login e cadastro Form</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-
-    </head>
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e cadastro Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
 <body>
     <div class="container">
         <div class="form-box">
-            <h1 id="title">Cadastro</h1>
-            <form>
-                <div class="input-group">
-                  <div class="input-field" id="nomeField">
-                    <i class="fa-solid fa-user"></i>
-                    <input type= "text" placeholder="Nome">
-                  </div>  
+            
+            <div class="card-header">
+                
+            </div>
 
-                  <div class="input-field">
-                    <i class="fa-solid fa-user"></i>
-                    <input type= "email" placeholder="Email">
-                  </div>  
+            <div class="card-body">
+                <h1 id="title">Cadastre-se</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field" id="nomeField">
+                            <i class="fa-solid fa-user"></i>
+                            <input type= "text" placeholder="Nome">
+                        </div>  
 
-                  <div class="input-field">
-                    <i class="fa-solid fa-user"></i>
-                    <input type= "password" placeholder="Senha">
-                  </div>  
-                  <p>Esqueci minha senha <a href= "#"> Click aqui!</a></p> 
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type= "email" placeholder="Email">
+                        </div>  
 
-                </div>
-                <div class="btn-field">
-                    <button type="button"id= "cadastroBtn">Cadastro</button>
-                    <button type="button" id= "LoginBtn" class="disable">Login</button>
-                </div>
-            </form>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type= "password" placeholder="Senha">
+                        </div>  
+                        <p>Esqueci minha senha <a href= "#"> Click aqui!</a></p> 
+
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" id="cadastroBtn">Cadastro</button>
+                        <button type="button" id="LoginBtn" class="disable">Login</button>
+                    </div>
+                </form>
+            </div>
         </div>
-
     </div>
+
 <script>
+    // SEU SCRIPT ORIGINAL - PERMANECE IDÊNTICO E FUNCIONAL
+    let cadastroBtn = document.getElementById ("cadastroBtn");
+    let LoginBtn = document.getElementById ("LoginBtn");
+    let nomeField = document.getElementById ("nomeField");
+    let title = document.getElementById ("title");
 
-let cadastroBtn = document.getElementById ("cadastroBtn");
-let LoginBtn = document.getElementById ("LoginBtn");
-let nomeField = document.getElementById ("nomeField");
-let title = document.getElementById ("title");
- 
- LoginBtn.onclick = function (){
-  nomeField.style.maxHeight = "0";
-  title.innerHTML = "Login";
-  cadastroBtn.classList.add("disable");
-  LoginBtn.classList.remove("disable");
- }
+    LoginBtn.onclick = function (){
+        nomeField.style.maxHeight = "0";
+        title.innerHTML = "Login";
+        cadastroBtn.classList.add("disable");
+        LoginBtn.classList.remove("disable");
+    }
 
- cadastroBtn.onclick = function (){
-  nomeField.style.maxHeight = "60px";
-  title.innerHTML = "Cadastro";
-  cadastroBtn.classList.remove("disable");
-  LoginBtn.classList.add("disable");
- }
+    cadastroBtn.onclick = function (){
+        nomeField.style.maxHeight = "60px";
+        title.innerHTML = "Cadastro";
+        cadastroBtn.classList.remove("disable");
+        LoginBtn.classList.add("disable");
+    }
 </script>
 </body>
+</html>
