@@ -14,7 +14,7 @@ O objetivo deste projeto é demonstrar habilidades essenciais de front-end na cr
 * **Design Moderno:** Utiliza imagens de fundo, gradientes, sombras e fontes customizadas (Google Fonts) para um visual atraente.
 * **Layout Responsivo:** A interface se adapta perfeitamente a diferentes tamanhos de tela, de desktops a celulares.
 * **Melhorias de UX:** Ícones nos campos de entrada (Font Awesome) e animações sutis que melhoram a usabilidade e a experiência geral.
-* **Código Limpo:** Estrutura semântica em HTML, estilização modular em CSS e lógica clara em JavaScript Vanilla (puro).
+* **Código Limpo:** Estrutura semântica em HTML, estilização modular em CSS e lógica clara em JavaScript (puro).
 
 ## 🛠️ Tecnologias Utilizadas
 
