@@ -6,8 +6,6 @@ Uma interface de usuário (UI) moderna e totalmente responsiva para um formulár
 
 ## 🖼️ Preview
 
-*(Recomendo fortemente que você tire um print da sua página, salve o arquivo como `preview.png` no seu repositório e deixe a linha abaixo como está!)*
-
 ![Preview da Página de Login](./preview.png)
 
 ## 📝 Sobre o Projeto
