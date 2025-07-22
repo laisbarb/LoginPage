@@ -4,10 +4,6 @@
 
 Uma interface de usuário (UI) moderna e totalmente responsiva para um formulário que alterna dinamicamente entre as telas de Login e Cadastro, criada com HTML, CSS e JavaScript puro.
 
-## 🖼️ Preview
-
-![Preview da Página de Login](./preview.png)
-
 ## 📝 Sobre o Projeto
 
 O objetivo deste projeto é demonstrar habilidades essenciais de front-end na criação de uma interface de usuário bonita e funcional. A página apresenta um formulário único que, através da manipulação do DOM com JavaScript, altera seu estado entre "Login" e "Cadastro" sem a necessidade de recarregar a página, proporcionando uma experiência de usuário (UX) fluida e agradável.
